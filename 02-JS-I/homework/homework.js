@@ -31,7 +31,7 @@ function devolverString(str) {
  return str; 
 }
 
-function suma(x, y) {
+function sumar(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -224,7 +224,7 @@ module.exports = {
   sonIguales,
   menosQueNoventa,
   mayorQueCincuenta,
-  suma,
+  sumar,
   resta,
   divide,
   multiplica,
