@@ -1,7 +1,11 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
+<<<<<<< HEAD
 const nuevaString = 'hola';
+=======
+const nuevaString = "hugo";
+>>>>>>> c1dba5cfd77a60a3c31cc448ee1b096015f5b0a3
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 11;
@@ -16,7 +20,11 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
+<<<<<<< HEAD
 const nuevoModulo = 21 % 5 === 1.5;
+=======
+const nuevoModulo = 21 % 5 === 1;
+>>>>>>> c1dba5cfd77a60a3c31cc448ee1b096015f5b0a3
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,10 +36,14 @@ const nuevoModulo = 21 % 5 === 1.5;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+<<<<<<< HEAD
   return str;
+=======
+ return str; 
+>>>>>>> c1dba5cfd77a60a3c31cc448ee1b096015f5b0a3
 }
 
-function suma(x, y) {
+function sumar(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
@@ -41,6 +53,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+
   return  x - y;
 }
 
@@ -53,14 +66,18 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+<<<<<<< HEAD
   return 
+=======
+  return x / y;
+>>>>>>> c1dba5cfd77a60a3c31cc448ee1b096015f5b0a3
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  return x = y;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -224,7 +241,7 @@ module.exports = {
   sonIguales,
   menosQueNoventa,
   mayorQueCincuenta,
-  suma,
+  sumar,
   resta,
   divide,
   multiplica,
