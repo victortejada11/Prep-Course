@@ -189,7 +189,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   var combinarNombres = "nombre" + " " + "apellido"
-  return combinado; 
+  return combinarNombres; 
 }
 
 function obtenerSaludo(nombre) {
