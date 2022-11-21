@@ -148,15 +148,17 @@ function redondearNumero(num) {
   return Math.round (num);
 }
 
-function redondearHaciaArriba(num) {
+function redondearHaciaArriba(num) 
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.ceil (num);
+  return Math.ceil(num);
+
+
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random ()
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -186,7 +188,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = "nombre" + " " + "apellido"
+  var combinarNombres = "nombre" + " " + "apellido"
   return combinado; 
 }
 
